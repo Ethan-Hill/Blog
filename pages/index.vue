@@ -14,7 +14,7 @@
           <div
             class="w-full max-w-3xl rounded-lg lg:w-3/4 bg-gradient-to-r h-80 from-MainB via-MainP to-MainY"
           />
-          <div class="flex flex-col py-2 lg:px-4">
+          <div class="flex flex-col py-2 lg:px-8">
             <h2 class="mb-2 text-xl font-bold text-white">
               {{ mainArticle.date }}
             </h2>
