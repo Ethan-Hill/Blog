@@ -23,6 +23,6 @@ Since I was young I was introduced to technology through system building and wor
 
 Leaving college in May 2021 has left me with the abiliy to find work, during my last few weeks I applied to multiple roles that interested me and after multiple interviews I was offered multiple roles and I was shocked. I landed a Junior frontend developer position which I'm starting on July 7th, 2021.
 
-## Finaly note
+## Final note
 
 I'm ecstatic to start my career as a frontend developer and get the opportunity to work with a team on projects and involve myself in something I love to do. Self taught development can lead to a real job, you just need to work hard to get one and learn what you can during your journey.
