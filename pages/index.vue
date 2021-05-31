@@ -34,7 +34,7 @@
           :key="article.id"
         >
           <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
-            <div class="flex flex-col p-4 my-16 lg:flex-row">
+            <div class="flex flex-col p-4 my-8 lg:flex-row">
               <div
                 class="w-full h-64 max-w-3xl rounded-lg lg:w-3/4 bg-gradient-to-r from-MainB via-MainP to-MainY"
               />
