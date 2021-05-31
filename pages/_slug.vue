@@ -2,7 +2,7 @@
   <article
     class="block max-w-3xl px-8 py-12 m-auto prose-sm prose text-white sm:prose lg:prose-lg xl:prose-2xl"
   >
-    <h1>{{article.title}}</h1>
+    <h1>{{ article.title }}</h1>
 
     <div class="flex items-center w-64 ">
       <div class="w-16 mr-3 lg:w-24">
@@ -19,6 +19,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        {
+          hid: this.article.title,
+          name: this.article.title,
+          content: this.article.description
+        }
+      ]
+    };
+  },
   async asyncData({ $content, params }) {
     const article = await $content("blog", params.slug).fetch();
 

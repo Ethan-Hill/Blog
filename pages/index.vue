@@ -59,6 +59,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Home",
+      meta: [
+        {
+          hid: "Home",
+          name: "Home",
+          content: "Ethan Hills Blog Posts"
+        }
+      ]
+    };
+  },
   async asyncData({ $content, params }) {
     const articles = await $content("blog", params.slug)
       .only(["title", "description", "date", "img", "slug", "id"])
